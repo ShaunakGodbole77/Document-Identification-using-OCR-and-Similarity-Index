@@ -1,0 +1,5 @@
+f = open("file.txt","w+")
+lin = f.read()
+lin = lin.replace("\n"," ") 
+f.write(lin)
+f.close()
